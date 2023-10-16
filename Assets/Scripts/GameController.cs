@@ -135,5 +135,6 @@ public class GameController : MonoBehaviour
             grabbedTroopTile = null;
             turnActions -= resRadius;
         }
+    text.text = "You have " + turnActions + " actions left!";
     }
 }
